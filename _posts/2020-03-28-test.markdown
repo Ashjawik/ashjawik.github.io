@@ -2,15 +2,11 @@
 layout: post
 title:  "test post"
 date:   2020-03-28 13:43 +0100
-categories: test
 permalink: /:categories/:title:output_ext
+published: true
+sitemap:
+  exclude: false
+categories: 
+  - test
 ---
 This is awesome it works w/o a year/month/date structure.
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
