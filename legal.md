@@ -1,0 +1,129 @@
+---
+layout: default
+title: legal & data privacy
+permalink: /legal/
+---
+
+## Legal Notice and Disclosure
+
+Information in accordance with Section 5 TMG:
+
+Sascha Roth
+
+Frankfurt am Main
+
+Germany
+
+This is a private website without business intention and without any commercial advertising.
+According to § 5 Abs. 1 TMG, we are not obliged to provide a postal address.
+
+#### Contact Information
+
+E-Mail: sascharoth@outlook.com
+
+Internet address: <https://ashjawik.github.io>
+
+## Disclaimer
+
+### Accountability for content
+
+The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents’ accuracy, completeness or topicality. According to statutory provisions, we are furthermore responsible for our own content on these web pages. In this matter, please note that we are not obliged to monitor the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity. Our obligations to remove or block the use of information under generally applicable laws remain unaffected by this as per §§ 8 to 10 of the Telemedia Act (TMG).
+
+### Accountability for links
+
+Responsibility for the content of external links (to web pages of third parties) lies solely with the operators of the linked pages. No violations were evident to us at the time of linking. Should any legal infringement become known to us, we will remove the respective link immediately.
+
+### Copyright
+
+Our web pages and their contents are subject to German copyright law. Unless expressly permitted by law, every form of utilizing, reproducing or processing works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights. Individual reproductions of a work are only allowed for private use. The materials from these pages are copyrighted and any unauthorized use may violate copyright laws.
+
+## Privacy Policy
+
+### Scope of application
+
+- The privacy of your personal data is very important to us. The purpose of this privacy policy is to inform particularly users of the ashjawik.github.io website(s) about how we process personal data. With this in mind, not all aspects of this information may apply to you.
+- Personal data within the scope of this privacy policy refers to any data that relates or can be related to you, such as your name, address or email address.
+
+### Controller
+
+- The operator and therefore the controller of the website ashjawik.github.io is Sascha Roth. Incidentally, the controller responsible for processing your personal data is
+
+Sascha Roth -> [sascharoth@outlook.com](mailto:sascharoth@outlook.com) .
+
+### Automatic data collection and processing on ashjawik.github.io websites
+
+- As with every website, our server automatically and temporarily collects information transmitted by your browser in server log files, provided you have not disabled this feature. If you intend to view our website, we require certain types of data on a technical level so that we can display our websites whilst also ensuring stability and security. This data is as follows:
+  - IP address of the computer sending the request
+  - file request of the client
+  - http response code
+  - the web page that linked you to our website (referrer URL)
+  - time of the server request
+  - browser type and version
+  - operating system used by the computer sending the request
+- The data in these server log files will not be analyzed in a way that identifies individual persons. In cases where the information listed above contains personal data (particularly the IP address), the legal basis for collecting this data is point (f) of Article 6(1) of the General Data Protection Regulation (GDPR). The legitimate interest we pursue when collecting this data is to ensure the proper functioning of our websites. If you require further information about the balancing of interests that must be carried out in accordance with point (f) of Article 6(1) of the GDPR, please contact us using the details provided in Section 2. Collection of the aforementioned data is required for the purposes of providing the functions of our website.
+- Our websites use certain technologies and tools, which are outlined below. If there are any that you do not want us to use, we have provided various options and settings for each one that will prevent it from being used.
+
+### Google Analytics
+
+- Our websites use Google Analytics, a web analytics service from Google Inc. (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; hereinafter referred to as “Google”). The features of the service that we use are Universal Analytics features. They make it possible to attribute data, sessions and interactions across multiple devices to a pseudonymous user ID, thus giving us the ability to analyze the activities of a user on all devices. Google Analytics uses cookies: these are text files which are stored on your computer and which allow your use of the website to be analyzed.
+- The information generated by the cookie about your use of our website(s) is normally transferred to a Google server in the USA, where it is saved. However, because IP anonymization has been enabled on our websites, your IP address will be truncated in advance by Google within the member states of the European Union or in other countries outside of the European Union which are signatories to the Agreement on the European Economic Area. Only in exceptional cases will the full IP address be transferred to a Google server in the USA before it is truncated. The IP address identified from your browser by Google Analytics will not be merged with other data collected by Google. Google will use this information to analyze your use of the website, to compile reports on the website activities and to provide other services for the website operator related to the use of the website and Internet usage.
+- You can prevent the storage of cookies via the relevant setting in your browser software. Please note, however, that in this case you may not be able to use all of the functions on the website. You can also prevent the recording of the data collected by the cookie with respect to your use of the website (including your IP address), as well as the processing of this data by Google, by downloading and installing a browser add-on (available at https://tools.google.com/dlpage/gaoptout?hl=en%3C/a%3E). Opt-out cookies prevent your data from being collected during any future visits to the respective website. In order to prevent the collection of data by Universal Analytics across multiple devices, you must opt out on all the systems that you use.
+- We use Google Analytics in order to pursue our legitimate interests of building a service that meets our visitor's needs, enabling statistical analysis and promoting our websites efficiently. The legal basis for this is established in point (f) of Article 6(1) of the GDPR.
+
+### Cookies
+
+- Our websites can use cookies. Cookies are small text files that are saved on a local cache in your browser. The cookies specified below are used by us exclusively to ensure that we are able to implement or provide the service that you are using. This is based on point (f) of Article 6(1) of the GDPR. The legitimate interest that we pursue when processing data is to optimize the website settings for the device you are using and to adapt the user interface accordingly. If you require further information about the balancing of interests that must be carried out in accordance with point (f) of Article 6(1) of the GDPR, please contact us using the details provided above. The following types of cookies (the scope and functionality of which are detailed below) are used on our websites:
+  - transient cookies
+  - persistent cookies
+- Transient cookies are automatically deleted once you close your browser. These include session cookies in particular. These save a session ID that makes it possible to attribute various request from your browser to a common session, allowing your computer to be recognized when you return to our website. Session cookies are deleted when you log out or close your browser.
+- Persistent cookies are automatically deleted after a specified amount of time, which can vary depending on the cookie. You can delete the cookies at any time in your browser’s security settings.
+- You can configure your browser settings as required: for example, you can refuse to accept third-party cookies or all cookies. Please note that you may not be able to use all of the functions on our website if you do this.
+
+### We collect, hold, use and disclose information for the following purposes
+
+- to generate the Terms of Service and Privacy Policy content you request
+- to improve our site to ensure that content is presented in the most effective manner for you and for your computer
+- to enable you to access and use our website, associated applications and associated social media platforms
+- to contact and communicate with you about your email inquiries
+- for internal record keeping and administrative purposes
+- for analytics, market research and business development, including to operate and improve our website, associated applications and associated social media platforms
+- as part of our efforts to keep our site safe and secure
+- to comply with our legal obligations and resolve any disputes that we may have
+
+#### Sharing your data with third parties
+
+Your personal data will never be shared with third parties without your express prior consent. The only exceptions to this apply in the following cases:
+
+- **For prosecution reasons**
+  Where required in order to investigate the unlawful use of our services or for the purposes of prosecution, personal data will be disclosed to the relevant law enforcement authorities and, where applicable, to any third-party claimants. However, such a course of action will only take place if there is concrete evidence of unlawful conduct or misuse. In such cases, your data may also be shared if doing so is required for the fulfillment of terms and conditions of use or other agreements. If requested, we are also legally obliged to disclose such data to certain public authorities, such as law enforcement bodies, authorities that penalize offenses with financial penalties, and financial authorities. In these cases, data is disclosed on the basis of our legitimate interest in combating misuse, aiding the prosecution of criminal offenses, and aiding the establishment, assertion and enforcement of claims, in line with point (f) of Article 6(1) of the GDPR. If you require further information about the balancing of interests that must be carried out in accordance with point (f) of Article 6(1) of the GDPR, please contact us using the details provided above.
+- **Processors**
+  We rely on contractually bound third-party companies and external service providers (referred to as “processors”) in order to provide our services. In such cases, personal data will be shared with these processors in order to allow them to continue providing their services. . The processors have been carefully selected by us and are subject to regular audits. The processors are permitted to use the data only for the purposes specified by us. Furthermore, they are contractually obligated to handle your data exclusively in accordance with this privacy policy and in line with the applicable data protection laws. More specifically, we use the services of the following processors in particular:
+  - for the purposes of providing centralized IT services
+  - IT service providers for the provision of hardware and software and for the implementation of maintenance work.
+
+Data is disclosed to processors on the basis of Article 28(1) of the GDPR or, alternatively, on the basis of our legitimate interest in the economic and technical advantages associated with the use of specialized processors and on the basis of circumstances in which your rights and interests in the protection of your personal data are not overridden (see point (f) of Article 6(1) of the GDPR). If you require further information about the balancing of interests that must be carried out in accordance with point (f) of Article 6(1) of the GDPR, please contact us using the details provided above.
+
+### Your rights
+
+As regards your personal data processed by us, you are entitled to the rights outlined below. In order to exercise any of these rights, please send us a written request using the contact details specified above or send an email to the following address: [sascharoth@outlook.com](mailto:sascharoth@outlook.com) .
+
+- **Right to access**
+  You have the right to request that we provide access to the personal data concerning you that we have processed. You may exercise this right within the scope outlined in Article 15 of the GDPR.
+- **Right to rectification or erasure**
+  Subject to the prerequisites specified in Article 17 of the GDPR, you have the right to request from us the erasure of personal data concerning you. The prerequisites provide for a right to erasure in particular where the personal data is no longer necessary for the purposes for which it was collected or otherwise processed. The ability to exercise this right is restricted in accordance with Article 17(3) of the GDPR, particularly in cases where we require your data in order to meet a legal obligation or to process legal claims.
+- **Right to restriction of processing**
+  You have the right to request from us restriction of processing under the terms specified in Article 18 of the GDPR. This right exists in particular (a) where the accuracy of personal data is contested by you, for a period enabling us to verify the accuracy of the personal data, (b) where you oppose the erasure of the personal data (in cases where the right to erasure applies) and request the restriction of its use instead, (c) where we no longer need the personal data for the purposes for which it was being processing, but it is required by you for the establishment, exercise or defence of legal claims, and (d) where the successful exercise of an objection is still contested between you and us. If the processing of your data has been restricted on any of these bases, such data may only be processed in exceptional cases; for example, where you have given your consent to this or where such processing is necessary for the enforcement of legal claims.
+- **Right to object to processing**
+  In accordance with Article 21 of the GDPR, you have the right to object, on grounds relating to your particular situation and at any time, to the processing of personal data concerning you on the basis of point (e) or (f) of Article 6(1) of the GDPR. We will no longer process your personal data unless we can demonstrate compelling legitimate grounds for processing that override your interests, rights and freedoms, or unless the circumstances involve the establishment, exercise or defense of legal claims.
+- **Right to data portability**
+  You have the right to receive the personal data concerning you, which you have provided to us, in a structured, commonly used and machine-readable format under the terms specified in Article 20 of the GDPR. This requires that the data processing has been based on you having given your consent and has been carried out by automated means.
+- **Right to lodge a complaint with the relevant data protection supervisory authority**
+  You have the right to lodge a complaint with a supervisory authority – in particular, within the EU member state of your habitual residence, your place of work or the location of the alleged infringement – if you believe that the processing of personal data relating to you infringes the applicable data protection legislation.
+
+### Erasure of your data
+
+Generally speaking, we erase or anonymize your personal data as soon as it is no longer needed for the purposes for which we collected or used it in accordance with the sections above. If data needs to be retained for legal reasons, it will be blocked. This means that it will no longer be available for further processing. If you require further information regarding our erasure and retention periods, please contact the controller specified using the relevant contact data.
+
+### Changes to this privacy policy
+
+The latest version of this privacy policy is available to view at: [Privacy Policy](https://ashjawik.github.io/legal/#privacy-policy)
