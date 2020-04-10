@@ -6,13 +6,13 @@
 
 This is the repo to my private blog where I will share assets and thoughts in form of blog posts with the world
 
-## technical dependencies
+## Technical dependencies
 
 - [highlight.js](https://highlightjs.org/) to highlight code-fences including a dependeny to [agata.css](./assets/css/agate.css)
 - [font awesome](https://fontawesome.com/) for social media icons
 - [Google Tag Manager](_includes\google-analytics.html)
 
-## some great references
+## References
 
 - <https://search.google.com/test/mobile-friendly>
 - <https://developers.facebook.com/tools/debug/>
@@ -20,3 +20,8 @@ This is the repo to my private blog where I will share assets and thoughts in fo
 - <https://www.favicon-generator.org/>
 - <https://varvy.com/>
 - <https://www.e-recht24.de/impressum-generator.html>
+
+## Todo list
+
+1. Build your own layout & design: e.g. with <https://purecss.io/>
+2. check for security (csrf etc.)
