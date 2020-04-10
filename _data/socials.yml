@@ -1,0 +1,8 @@
+# https://chrisanthropic.github.io/starving-artist-jekyll-theme/documentation/social-icons/
+# RSS
+- title: "feed"
+  href: "/feed.xml"
+
+# LinkedIn
+- title: "linkedin"
+  href: "https://www.linkedin.com/in/sascha-roth-71581389/"

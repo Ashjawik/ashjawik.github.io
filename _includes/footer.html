@@ -6,7 +6,7 @@
           <ul class="contact-list">
             <li class="p-name">
               {%- if site.author -%}
-                <a class="black-link" href="{{ site.url }}/about.html">
+                <a class="black-link" href="{{ site.url }}/about">
                   {{ site.author | escape }} 
                 </a>
               {%- endif -%}
@@ -16,6 +16,7 @@
               <a class="u-email black-link" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
               {%- endif -%}
           </ul>
+          {%- include social.html -%}
         </div>
       </div>
     </div>
