@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2020-03-28 13:33:07 +0100
-permalink: /:categories/:title:output_ext
+permalink: /:title:output_ext
 published: false
 sitemap:
   exclude: true
