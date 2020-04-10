@@ -19,3 +19,4 @@ This is the repo to my private blog where I will share assets and thoughts in fo
 - <https://fontawesome.com/>
 - <https://www.favicon-generator.org/>
 - <https://varvy.com/>
+- <https://www.e-recht24.de/impressum-generator.html>

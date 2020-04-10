@@ -1,22 +1,34 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-            <a class="black-link" href="{{ site.url }}/about"> About </a>
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-          <li>
-            <a class="fas fa-envelope" href="mailto:{{ site.email }}"></a></li>
-          {%- endif -%}
-          {%- include social.html -%}
-          <li class="p-name"><a class="black-link" href="/sitemap.xml">Sitemap</a></li>
-        </ul>
-      </div>
+<div class="container"></div>
+<footer class="wrapper">
+  <!-- Footer main -->
+  <section class="ft-main">
+    <div class="ft-main-item">
+      <ul>
+      </ul>
     </div>
-  </div>
+    <div class="ft-main-item">
+      <ul>
+      </ul>
+    </div>
+    <div class="ft-main-item">
+      <ul>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer social -->
+  <section class="ft-social">
+    <ul class="ft-social-list">
+      {%- include social.html -%}
+    </ul>
+  </section>
+
+  <!-- Footer legal -->
+  <section>
+    <ul class="ft-legal-list black-link">
+      <li><a class="black-link" href="/about">about</a></li>
+      <li><a class="black-link" href="/impressum">legal notice</a></li>
+      <li>&copy; 2020 Copyright {{site.author}}</li>
+    </ul>
+  </section>
 </footer>
