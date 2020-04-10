@@ -25,3 +25,5 @@ This is the repo to my private blog where I will share assets and thoughts in fo
 
 1. Build your own layout & design: e.g. with <https://purecss.io/>
 2. check for security (csrf etc.)
+3. add tags to posts
+4. add tag pages where you can filter for posts acording to a tag
