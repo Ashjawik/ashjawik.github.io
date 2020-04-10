@@ -1,23 +1,22 @@
 <footer class="site-footer h-card">
-    <data class="u-url" href="{{ "/" | relative_url }}"></data>
-    <div class="wrapper">
-      <div class="footer-col-wrapper">
-        <div class="footer-col">
-          <ul class="contact-list">
-            <li class="p-name">
-              {%- if site.author -%}
-                <a class="black-link" href="{{ site.url }}/about">
-                  {{ site.author | escape }} 
-                </a>
-              {%- endif -%}
-              </li>
-              {%- if site.email -%}
-              <li>
-              <a class="u-email black-link" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-              {%- endif -%}
-          </ul>
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+            <a class="black-link" href="{{ site.url }}/about"> About </a>
+            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+          <li>
+            <a class="fas fa-envelope" href="mailto:{{ site.email }}"></a></li>
+          {%- endif -%}
           {%- include social.html -%}
-        </div>
+          <li class="p-name"><a class="black-link" href="/sitemap.xml">Sitemap</a></li>
+        </ul>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
