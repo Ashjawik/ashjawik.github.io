@@ -25,8 +25,19 @@ git reset --hard origin/master
 
 ## Create a feature branch
 
+if you create a new feature branch that wasn't there before:
+
 ```cmd
 git checkout -b new-feature
+```
+
+otherwise use the following command to rebase the existing branch to latest master
+
+```cmd
+git checkout master
+git pull
+git checkout your-existing-branch
+git pull --rebase origin master
 ```
 
 ## Update, add, commit, and push changes
