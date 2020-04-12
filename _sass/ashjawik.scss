@@ -4,14 +4,15 @@
 
 $fas_size: 5x;
 
-$base-font-family: "Bitter", "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", "Bitter", sans-serif;
-$base-font-size: 18px !default;
-$base-font-weight: 400 !default;
+// https://www.websitebuilderexpert.com/designing-websites/pick-best-font-style-for-website/
+$base-font-family: "Helvetica Bold", "Calibri", "Myriad Italic", "Franklin Gothic"; //"Bitter", "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", "Bitter", sans-serif;
+$base-font-size: 24px !default;
+$base-font-weight: 500 !default;
 $small-font-size: $base-font-size * 0.85 !default;
 $base-line-height: 1.8 !default;
 $small-line-height: 1.6 !default;
 
-$spacing-unit: 30px !default;
+$spacing-unit: 24px !default;
 
 $text-color: #111 !default;
 $background-color: #fdfdfd !default;
@@ -23,31 +24,31 @@ $grey-color-dark: darken($grey-color, 25%) !default;
 $orange-color: #f66a0a !default;
 $table-text-align: left !default;
 
-// Width of the content area
+// Width of the content area of my blog articles
 // https://socialtriggers.com/perfect-content-width/
 
 $content-width: 600px !default;
 
 // https://css-tricks.com/naming-media-queries/#comment-437419
 
-$wrist: 200px !default;
+$wrist: 320px !default;
 $palm: 480px !default;
 $lap: 600px !default;
 $desk: 960px !default;
 //$wall: 960px !default;
 
 $on-medium: $palm !default;
-$on-large: $lap !default;
+$on-large: $desk !default;
 
 
 @mixin relative-font-size($ratio) {
     font-size: $base-font-size * $ratio;
 }
 
-/*
-https://css-tricks.com/snippets/css/fluid-typography/
-used to size typography based on content width
-*/
+
+// https://css-tricks.com/snippets/css/fluid-typography/
+// used to size typography based on content width
+
 @function strip-unit($value) {
     @return $value / ($value * 0 + 1);
 }
@@ -75,9 +76,9 @@ used to size typography based on content width
     }
 }
 
-/*
-*https://css-tricks.com/naming-media-queries/#comment-437419
-*/
+
+// https://css-tricks.com/naming-media-queries/#comment-437419
+
 // use:
 // @include at-least($lap) {
 //    background: orange;
@@ -95,5 +96,6 @@ used to size typography based on content width
         @content;
     }
 }
+
 // Import partials.
 @import "ashjawik/base", "ashjawik/footer", "ashjawik/layout";

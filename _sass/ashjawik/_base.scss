@@ -20,6 +20,12 @@ figure {
   margin: 0;
   padding: 0;
 }
+
+/* fluid typography */
+html {
+  @include fluid-type($on-medium, $on-large, $small-font-size, $base-font-size);
+}
+
 /**
   * Basic styling
   */
@@ -27,7 +33,7 @@ body {
   max-width: $on-large;
   margin: 0 auto;
   padding: 1rem;
-  font-family: $base-font-family; //-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: $base-font-family;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -39,10 +45,82 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  padding: 0 2%;
 
   @include at-least($on-medium) {
     padding: 0 5%;
+  }
+}
+
+/**
+  * Set `margin-bottom` to maintain vertical rhythm
+  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+%vertical-rhythm {
+  margin-bottom: 1rem;
+}
+
+p,
+%vertical-rhythm {
+  margin-bottom: 0.5rem;
+}
+
+/**
+  * `main` element
+  */
+main {
+  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+}
+
+/**
+  * Headings
+  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 2rem;
+  font-weight: $base-font-weight;
+}
+
+/**
+  * Links
+  */
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/**
+  * Wrapper
+  */
+
+//this wrapper is to small: todo: only for blog
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+
+  @include at-least($lap) {
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
   }
 }
 
@@ -50,8 +128,4 @@ body {
 i.fas,
 i.fab {
   size: $fas_size;
-}
-
-html {
-  @include fluid-type($on-medium, $on-large, $small-font-size, $base-font-size);
 }
