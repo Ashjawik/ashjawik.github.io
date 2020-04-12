@@ -28,6 +28,8 @@ git reset --hard origin/master
 if you create a new feature branch that wasn't there before:
 
 ```cmd
+git checkout master
+git pull
 git checkout -b new-feature
 ```
 
