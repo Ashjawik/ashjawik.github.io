@@ -8,9 +8,9 @@ permalink: /legal/
 
 Information in accordance with Section 5 TMG:
 
-Sascha Roth
+{{site.author}}
 
-Frankfurt am Main
+Mainz
 
 Germany
 
@@ -19,9 +19,9 @@ According to § 5 Abs. 1 TMG, we are not obliged to provide a postal address.
 
 #### Contact Information
 
-E-Mail: sascharoth@outlook.com
+E-Mail: [{{site.email}}](mailto:{{site.email}})
 
-Internet address: <https://ashjawik.github.io>
+Internet address: <{{site.url}}>
 
 ## Disclaimer
 
@@ -41,16 +41,16 @@ Our web pages and their contents are subject to German copyright law. Unless exp
 
 ### Scope of application
 
-- The privacy of your personal data is very important to us. The purpose of this privacy policy is to inform particularly users of the ashjawik.github.io website(s) about how we process personal data. With this in mind, not all aspects of this information may apply to you.
+- The privacy of your personal data is very important to us. The purpose of this privacy policy is to inform particularly users of the {{site.url}} website(s) about how we process personal data. With this in mind, not all aspects of this information may apply to you.
 - Personal data within the scope of this privacy policy refers to any data that relates or can be related to you, such as your name, address or email address.
 
 ### Controller
 
-- The operator and therefore the controller of the website ashjawik.github.io is Sascha Roth. Incidentally, the controller responsible for processing your personal data is
+- The operator and therefore the controller of the website {{site.url}} is {{site.author}}. Incidentally, the controller responsible for processing your personal data is
 
-Sascha Roth -> [sascharoth@outlook.com](mailto:sascharoth@outlook.com) .
+{{site.author} -> [{{site.email}}](mailto:{{site.email}}) .
 
-### Automatic data collection and processing on ashjawik.github.io websites
+### Automatic data collection and processing on {{site.url}} websites
 
 - As with every website, our server automatically and temporarily collects information transmitted by your browser in server log files, provided you have not disabled this feature. If you intend to view our website, we require certain types of data on a technical level so that we can display our websites whilst also ensuring stability and security. This data is as follows:
   - IP address of the computer sending the request
@@ -105,7 +105,7 @@ Data is disclosed to processors on the basis of Article 28(1) of the GDPR or, al
 
 ### Your rights
 
-As regards your personal data processed by us, you are entitled to the rights outlined below. In order to exercise any of these rights, please send us a written request using the contact details specified above or send an email to the following address: [sascharoth@outlook.com](mailto:sascharoth@outlook.com) .
+As regards your personal data processed by us, you are entitled to the rights outlined below. In order to exercise any of these rights, please send us a written request using the contact details specified above or send an email to the following address: [{{site.email}}](mailto:{{site.email}}) .
 
 - **Right to access**
   You have the right to request that we provide access to the personal data concerning you that we have processed. You may exercise this right within the scope outlined in Article 15 of the GDPR.
@@ -126,4 +126,4 @@ Generally speaking, we erase or anonymize your personal data as soon as it is no
 
 ### Changes to this privacy policy
 
-The latest version of this privacy policy is available to view at: [Privacy Policy](https://ashjawik.github.io/legal/#privacy-policy)
+The latest version of this privacy policy is available to view at: [Privacy Policy]({{site.url}}/legal/#privacy-policy)
