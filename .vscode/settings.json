@@ -1,0 +1,14 @@
+{
+    "search.showLineNumbers": true,
+    "workbench.editor.enablePreview": false,
+    "markdown.extension.toc.updateOnSave": true,
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.toc.omittedFromToc": {
+    // Use a path relative to your workspace.
+    // easier: use <!-- omit in toc -->
+        "./README.md": [
+            "# Sascha's personal blog",
+            "## Table of Contents"
+        ]
+    }
+}

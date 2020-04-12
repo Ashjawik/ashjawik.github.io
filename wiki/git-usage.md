@@ -1,11 +1,10 @@
-# git usage
+# git usage <!-- omit in toc -->
 
-- [git usage](#git-usage)
-  - [Start with the master branch](#start-with-the-master-branch)
-  - [Create a feature branch](#create-a-feature-branch)
-  - [Update, add, commit, and push changes](#update-add-commit-and-push-changes)
-  - [Push feature branch to remote](#push-feature-branch-to-remote)
-  - [Pull request](#pull-request)
+- [Start with the master branch](#start-with-the-master-branch)
+- [Create a feature branch](#create-a-feature-branch)
+- [Update, add, commit, and push changes](#update-add-commit-and-push-changes)
+- [Push feature branch to remote](#push-feature-branch-to-remote)
+- [Pull request](#pull-request)
 
 This project uses the [feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
@@ -18,8 +17,8 @@ For all new posts or changes on documentation the branch `develop` is used
 All feature branches are created off the latest code state of a project aka master branch.
 
 ```cmd
-git checkout master
-git fetch origin
+git checkout master &&
+git fetch origin &&
 git reset --hard origin/master
 ```
 
@@ -28,18 +27,14 @@ git reset --hard origin/master
 if you create a new feature branch that wasn't there before:
 
 ```cmd
-git checkout master
-git pull
 git checkout -b new-feature
 ```
 
 otherwise use the following command to rebase the existing branch to latest master
 
 ```cmd
-git checkout master
-git pull
-git checkout your-existing-branch
-git pull --rebase origin master
+git checkout your-existing-branch &&
+git reset --hard master
 ```
 
 ## Update, add, commit, and push changes
