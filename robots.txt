@@ -1,5 +1,10 @@
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
 # Group 1
 User-agent: *
 Disallow: /
 
-Sitemap: http://www.example.com/sitemap.xml
+Sitemap: {{site.url}}/sitemap.xml
