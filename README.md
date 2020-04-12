@@ -1,16 +1,14 @@
-# Private blog
-
-- [Private blog](#private-blog)
-  - [What's this repo about](#whats-this-repo-about)
-  - [Technical dependencies](#technical-dependencies)
-  - [git workflow](#git-workflow)
-  - [Documentation](#documentation)
-  - [References](#references)
-  - [Todo list](#todo-list)
-
-## What's this repo about
+# Sascha's personal blog <!-- omit in toc -->
 
 This is the repo to my private blog where I will share assets and thoughts in form of blog posts with the world
+
+## Table of Contents <!-- omit in toc -->
+
+- [Technical dependencies](#technical-dependencies)
+- [git workflow](#git-workflow)
+- [Documentation](#documentation)
+- [References](#references)
+- [Todo list](#todo-list)
 
 ## Technical dependencies
 
