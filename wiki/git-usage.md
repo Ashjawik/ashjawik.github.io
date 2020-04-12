@@ -30,7 +30,7 @@ if you create a new feature branch that wasn't there before:
 git checkout -b new-feature
 ```
 
-otherwise use the following command to rebase the existing branch to latest master
+otherwise use the following command to reset the existing branch to latest master
 
 ```cmd
 git checkout your-existing-branch &&
@@ -38,6 +38,14 @@ git reset --hard master
 ```
 
 ## Update, add, commit, and push changes
+
+If your feature-branch is not rebased to current master:
+
+```cmd
+git pull --rebase origin master
+```
+
+otherwise continue with
 
 ```cmd
 git status
