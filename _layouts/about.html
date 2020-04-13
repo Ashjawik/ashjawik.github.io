@@ -8,26 +8,31 @@ layout: default
     <title>{{ site.author }}</title>
   </head>
   <div class="post-back">
+<<<<<<< HEAD
     {% include breadcrumbs.html %}
   </div>
+=======
+    <a class="black-link" href="{{ site.url | relative_url }}"> ← {{ site.moving.back_to }} </a>
+  </div> <!-- #id.post-back -->
+>>>>>>> applied div descriptions to about & default.html
   <div class="content-wrapper">
-    <div class="about-header align-vertical">
+    <div class="about-header">
       {%- if site.moving.avatar_url -%}
       <img alt="about avatar" class="about-avatar" src="{{ site.moving.avatar_url }}" />
       {%- endif -%} {%- if site.author -%}
       <div class="about-info">
         <div class="about-your-name">
           {{ site.author | escape }}
-        </div>
+        </div> <!-- #id.about-your-name -->
         {%- endif -%}
         <p class="about-description">
           Productmanager at <a href="https://www.clark.de" class="black-link">CLARK</a>
         </p>
-      </div>
-    </div>
+      </div> <!-- #id.about-info -->
+    </div> <!-- #id.about-header -->
 
     <div class="about-content e-content" itemprop="articleBody">
       {{ content }}
-    </div>
-  </div>
-</div>
+    </div> <!-- #id.about-content e-content -->
+  </div> <!-- #id.content-wrapper -->
+</div> <!-- #id.about-page -->
