@@ -10,10 +10,8 @@ permalink: /legal/
 
 Information in accordance with Section 5 TMG:
 
-{{site.author}}
-
-Mainz
-
+{{site.author}}  
+Mainz  
 Germany
 
 This is a private website without business intention and without any commercial advertising.
@@ -21,8 +19,7 @@ According to § 5 Abs. 1 TMG, we are not obliged to provide a postal address.
 
 ### Contact Information
 
-E-Mail: [{{site.email}}](mailto:{{site.email}})
-
+E-Mail: [{{site.email}}](mailto:{{site.email}})  
 Internet address: <{{site.url}}>
 
 ## Disclaimer
