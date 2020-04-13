@@ -3,29 +3,31 @@ layout: default
 ---
 
 <div class="about-page">
+
   <head>
     <title>{{ site.author }}</title>
   </head>
   <div class="post-back">
     {% include breadcrumbs.html %}
   </div>
-  <div class="about-header">
-    {%- if site.moving.avatar_url -%}
-    <img alt="about avatar" class="about-avatar" src="{{ site.moving.avatar_url }}" />
-    {%- endif -%} {%- if site.author -%}
-    <div class="about-info">
-      <div class="about-your-name">
-        {{ site.author | escape }}
+  <div class="content-wrapper">
+    <div class="about-header align-vertical">
+      {%- if site.moving.avatar_url -%}
+      <img alt="about avatar" class="about-avatar" src="{{ site.moving.avatar_url }}" />
+      {%- endif -%} {%- if site.author -%}
+      <div class="about-info">
+        <div class="about-your-name">
+          {{ site.author | escape }}
+        </div>
+        {%- endif -%}
+        <p class="about-description">
+          Productmanager at <a href="https://www.clark.de" class="black-link">CLARK</a>
+        </p>
       </div>
-      {%- endif -%} {%- if site.moving.about_you -%}
-      <p class="about-description">
-        Productmanager at <a href="https://www.clark.de" class="black-link">CLARK</a>
-      </p>
-      {%- endif -%}
     </div>
-  </div>
 
-  <div class="about-content e-content" itemprop="articleBody">
-    {{ content }}
+    <div class="about-content e-content" itemprop="articleBody">
+      {{ content }}
+    </div>
   </div>
 </div>

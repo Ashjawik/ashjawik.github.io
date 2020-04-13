@@ -17,38 +17,39 @@ dd,
 ol,
 ul,
 figure {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* fluid typography */
 html {
-  @include fluid-type($on-medium, $on-large, $small-font-size, $base-font-size);
+    @include fluid-type($on-medium, $on-large, $small-font-size, $base-font-size);
+    line-height: calc($small-line-height + ($base-line-height - $small-line-height) * ((100vw - $on-medium)/($on-large - $on-medium)));
 }
 
 /**
   * Basic styling
   */
 body {
-  max-width: $on-large;
-  margin: 0 auto;
-  padding: 1rem;
-  font-family: $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-  -moz-font-feature-settings: "kern" 1;
-  -o-font-feature-settings: "kern" 1;
-  font-feature-settings: "kern" 1;
-  font-kerning: normal;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+    max-width: $on-large;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 
-  @include at-least($on-medium) {
-    padding: 0 5%;
-  }
+    @include at-least($on-medium) {
+        padding: 0 5%;
+    }
 }
 
 /**
@@ -67,19 +68,19 @@ ol,
 dl,
 figure,
 %vertical-rhythm {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 p,
 %vertical-rhythm {
-  margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /**
   * `main` element
   */
 main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+    display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
 /**
@@ -91,68 +92,88 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 2rem;
-  font-weight: $base-font-weight;
+    margin-top: 2rem;
+    font-weight: $base-font-weight;
 }
 
 /**
   * Links
   */
 a {
-  color: $brand-color;
-  text-decoration: none;
+    color: $brand-color;
+    text-decoration: none;
 
-  &:hover {
-    text-decoration: underline;
-  }
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 /**
   * Wrapper
   */
 
-//this wrapper is to small: todo: only for blog
 .wrapper {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
 
-  @include at-least($lap) {
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-  }
+    @include at-least($lap) {
+        padding-right: $spacing-unit;
+        padding-left: $spacing-unit;
+    }
+}
+
+.content-wrapper {
+    max-width: $content-width;
+    padding-top: 2em;
+    @include at-least($desk) {
+        margin-left: ($desk - $content-width)/2;
+        margin-right: ($desk - $content-width)/2;
+    }
+
+    @include until($lap) {
+        @if $lap>$content-width {
+            margin-left: ($lap - $content-width)/2;
+            margin-right: ($lap - $content-width)/2;
+        } @else {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
 }
 
 /**
   * Tables
   */
-  table {
+table {
     margin-bottom: $spacing-unit;
     width: 100%;
     text-align: $table-text-align;
     color: lighten($text-color, 18%);
     border-collapse: collapse;
     border: 1px solid $grey-color-light;
-    tr { //table row
-      &:nth-child(even) {
-        background-color: lighten($grey-color-light, 6%);
-      }
+    tr {
+        //table row
+        &:nth-child(even) {
+            background-color: lighten($grey-color-light, 6%);
+        }
     }
     th, //overwrite table heading
-    td { //content of the cells
-      padding: ($spacing-unit / 3) ($spacing-unit / 2);
-      border: 1px solid $grey-color-light;
+    td {
+        //content of the cells
+        padding: ($spacing-unit / 3) ($spacing-unit / 2);
+        border: 1px solid $grey-color-light;
     }
     th {
-      background-color: lighten($grey-color-light, 3%);
-      border: 1px solid darken($grey-color-light, 4%);
-      border-bottom-color: darken($grey-color-light, 12%);
+        background-color: lighten($grey-color-light, 3%);
+        border: 1px solid darken($grey-color-light, 4%);
+        border-bottom-color: darken($grey-color-light, 12%);
     }
-  }
+}
 
 // Font Awesome adjustmens
 i.fas,
 i.fab {
-  size: $fas_size;
+    size: $fas_size;
 }
