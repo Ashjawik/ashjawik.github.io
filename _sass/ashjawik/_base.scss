@@ -124,6 +124,33 @@ a {
   }
 }
 
+/**
+  * Tables
+  */
+  table {
+    margin-bottom: $spacing-unit;
+    width: 100%;
+    text-align: $table-text-align;
+    color: lighten($text-color, 18%);
+    border-collapse: collapse;
+    border: 1px solid $grey-color-light;
+    tr { //table row
+      &:nth-child(even) {
+        background-color: lighten($grey-color-light, 6%);
+      }
+    }
+    th, //overwrite table heading
+    td { //content of the cells
+      padding: ($spacing-unit / 3) ($spacing-unit / 2);
+      border: 1px solid $grey-color-light;
+    }
+    th {
+      background-color: lighten($grey-color-light, 3%);
+      border: 1px solid darken($grey-color-light, 4%);
+      border-bottom-color: darken($grey-color-light, 12%);
+    }
+  }
+
 // Font Awesome adjustmens
 i.fas,
 i.fab {
