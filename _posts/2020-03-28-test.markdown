@@ -11,7 +11,19 @@ categories:
 
 This is awesome it works w/o a year/month/date structure.
 
+Test for a table
+
 | test1  | test2  |
 |---|---|
 | r1c1  | r1c2  |
 |r2c1|r2c2|
+
+Test for a list
+
+- li1
+- li2
+- li3
+
+1. li1
+2. li2
+3. li3

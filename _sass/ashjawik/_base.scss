@@ -1,30 +1,10 @@
-/**
- * Reset some basic elements
- */
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-hr,
-dl,
-dd,
-ol,
-ul,
-figure {
-    margin: 0;
-    padding: 0;
-}
-
 /* fluid typography */
 html {
     @include fluid-type($on-medium, $on-large, $small-font-size, $base-font-size);
-    line-height: calc($small-line-height + ($base-line-height - $small-line-height) * ((100vw - $on-medium)/($on-large - $on-medium)));
+    line-height: calc(
+        $small-line-height + ($base-line-height - $small-line-height) *
+            ((100vw - $on-medium) / ($on-large - $on-medium))
+    );
 }
 
 /**
@@ -94,6 +74,21 @@ h5,
 h6 {
     margin-top: 2rem;
     font-weight: $base-font-weight;
+}
+
+/**
+  * Lists
+  */
+ul,
+ol {
+    margin-left: $spacing-unit;
+}
+
+/*li {
+    > ul,
+    > ol {
+        margin-bottom: 0;
+    }
 }
 
 /**
