@@ -37,6 +37,7 @@ Just open Command Palette (Ctrl-Shift-P) -> Markdown: Create Table of Contents
 - <https://www.favicon-generator.org/>
 - <https://varvy.com/>
 - <https://www.e-recht24.de/impressum-generator.html>
+- [interactive HTML cheat sheet](https://htmlcheatsheet.com/)
 
 ## Todo list
 
