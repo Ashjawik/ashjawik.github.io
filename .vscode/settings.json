@@ -2,7 +2,7 @@
     "search.showLineNumbers": true,
     "workbench.editor.enablePreview": false,
     "markdown.extension.toc.updateOnSave": true,
-    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.preview.autoShowPreviewToSide": false,
     "markdown.extension.toc.omittedFromToc": {
     // Use a path relative to your workspace.
     // easier: use <!-- omit in toc -->
