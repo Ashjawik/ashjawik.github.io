@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is my personal blog. I will write about everything that comes into my mind.
   This can be either private finance, my job or personal development. 
   I want to share my learnings while I am wandering through live.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ashjawik.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:title/
 google_analytics: UA-163324539-1
