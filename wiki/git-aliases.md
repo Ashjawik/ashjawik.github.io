@@ -10,5 +10,5 @@ gpub=git push --set-upstream origin $*
 gl=git log --oneline --all --graph --decorate  $*
 gum='git checkout master && git fetch origin && git reset --hard origin/master $*'
 gst=git status -sb
-grm=git pull --rebase origin master 
+grm=git pull --rebase origin master
 ```
