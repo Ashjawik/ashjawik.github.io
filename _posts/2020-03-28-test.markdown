@@ -6,7 +6,7 @@ author: Sascha
 feature-image:
   src: /assets/img/blog/test/lab-217041_1280
   type: jpg
-  alt: "That's a test image"
+  alt: That's a test image
 published: true
 sitemap:
   exclude: false
