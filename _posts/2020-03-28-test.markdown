@@ -7,8 +7,6 @@ sitemap:
   exclude: false
 categories: 
   - test
-
-redirect_from:
-  - /blog/test
 ---
+
 This is awesome it works w/o a year/month/date structure.
