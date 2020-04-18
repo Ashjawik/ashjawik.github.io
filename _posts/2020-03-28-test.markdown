@@ -2,6 +2,11 @@
 layout: post
 title:  "test post"
 date:   2020-03-28 13:43 +0100
+author: Sascha
+feature-image:
+  src: /assets/img/blog/test/lab-217041_1280
+  type: jpg
+  alt: "That's a test image"
 published: true
 sitemap:
   exclude: false
