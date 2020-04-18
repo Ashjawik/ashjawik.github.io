@@ -4,6 +4,8 @@ title: legal & data privacy
 permalink: /legal/
 ---
 
+{% include breadcrumbs.html %}
+
 ## Legal Notice and Disclosure
 
 Information in accordance with Section 5 TMG:
