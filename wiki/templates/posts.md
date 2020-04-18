@@ -17,6 +17,13 @@ published: true
 sitemap:
   exclude: false
 
+author: Sascha
+
+feature-image:
+  src: /assets/img/blog/test/lab-217041_1280
+  type: jpg
+  alt: "That's a test image"
+
 # enter multiple categories, they will appear on the page
 categories: 
   - test
