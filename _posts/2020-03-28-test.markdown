@@ -1,5 +1,12 @@
 ---
+# settings
 layout: post
+excerpt_separator: <!--excerpt ends here -->
+published: true
+sitemap:
+  exclude: false
+
+# blog post related
 title:  "test post"
 date:   2020-03-28 13:43 +0100
 author: Sascha
@@ -7,13 +14,22 @@ feature-image:
   src: /assets/img/blog/test/lab-217041_1280
   type: jpg
   alt: That's a test image
-published: true
-sitemap:
-  exclude: false
 categories: 
   - test-category
 tags:
   - test-tag
 ---
 
-This is awesome it works w/o a year/month/date structure.
+This is is the excerpt of this post. I should generate interest in reading the rest of the blog post
+
+<!--excerpt ends here -->
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget arcu sapien. Fusce in gravida metus. Integer iaculis justo eros, vel lobortis ex aliquet fermentum. Donec quis rutrum ex. Nunc malesuada libero neque, eget tincidunt lorem malesuada et. Cras ac nisi turpis. Maecenas accumsan fringilla leo nec imperdiet.
+
+Donec at aliquam massa. Nulla facilisi. Aliquam elit tortor, congue non odio id, suscipit ullamcorper metus. Phasellus sed neque diam. Vestibulum nibh nibh, gravida et justo non, consectetur mattis tellus. Nullam id nunc lacus. Proin tincidunt purus at lorem mattis aliquam. Sed semper elit dui, in facilisis turpis cursus posuere. Etiam maximus scelerisque arcu, sed porttitor ex lobortis in. Maecenas semper euismod tempus. Praesent feugiat, tortor et dignissim tempus, massa nunc maximus erat, fermentum venenatis mi dui vitae justo.
+
+Ut facilisis vestibulum odio, et fermentum odio accumsan quis. Vestibulum posuere, augue id accumsan elementum, purus felis pulvinar nulla, eget imperdiet urna felis ut turpis. Proin lectus eros, luctus vel sapien eu, vehicula rhoncus justo. Sed id ex iaculis, gravida lorem a, lobortis elit. Proin erat risus, congue eu tortor eu, accumsan venenatis ante. Suspendisse potenti. Nam quis eros ornare, vestibulum sem a, consectetur felis. Ut ut tortor a felis placerat porta. Maecenas consequat massa quis mauris tempor volutpat. Duis porttitor metus vel velit lacinia varius. Aenean porta, sapien et blandit dictum, lectus enim ornare risus, vitae dignissim ante diam at nisl. Donec volutpat fringilla aliquet. Donec et tortor sem.
+
+Vivamus condimentum aliquam volutpat. In maximus in orci id tempor. Quisque ultrices risus vitae gravida accumsan. In hac habitasse platea dictumst. Nulla et luctus erat. In iaculis mollis urna sed tincidunt. Sed id justo quis justo luctus elementum vitae in risus. Maecenas venenatis vitae nibh sed faucibus. Pellentesque ultricies sit amet lacus eget gravida. Donec ut nulla ac augue placerat euismod. Vivamus sed sem tempor, varius mauris at, blandit ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a nibh luctus eros tristique dignissim. Quisque commodo arcu dolor.
+
+Vestibulum a mi vestibulum, gravida metus in, condimentum metus. Nam in placerat justo, in mattis lorem. Quisque sed volutpat purus. Cras non nunc tristique, ultrices eros sit amet, elementum ipsum. Mauris nisi augue, tempor nec risus consequat, suscipit interdum leo. Suspendisse in neque eget ante laoreet varius. Mauris nec dolor in dui convallis posuere. Sed suscipit facilisis felis consectetur vehicula. Aenean non sapien in diam sodales ornare.
