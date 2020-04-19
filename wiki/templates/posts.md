@@ -24,8 +24,13 @@ feature-image:
   type: jpg
   alt: "That's a test image"
 
-# enter multiple categories, they will appear on the page
+# categories & tags
+# categories are hierachical elemens
+# while tags are non-hierarchical
 categories: 
+  - test
+
+tags:
   - test
 
 # Jekyll redirect

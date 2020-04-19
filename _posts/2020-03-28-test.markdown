@@ -11,7 +11,9 @@ published: true
 sitemap:
   exclude: false
 categories: 
-  - test
+  - test-category
+tags:
+  - test-tag
 ---
 
 This is awesome it works w/o a year/month/date structure.
