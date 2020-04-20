@@ -32,11 +32,11 @@ google_analytics: UA-163324539-1
 # Build settings
 # theme: moving
 plugins:
-  - jekyll-feed
   - jekyll-redirect-from
 
-feed:
-  excerpt_only: true
+#    - jekyll-feed
+# feed:
+#  excerpt_only: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

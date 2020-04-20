@@ -1,0 +1,37 @@
+---
+layout: null
+---
+<!--https://validator.w3.org/feed/docs/atom.html-->
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>{{ site.url }}{{ site.baseurl }}/</id>
+    <title type="html">{{ site.title | xml_escape }}</title>
+    <subtitle type="html">{{site.description}}</subtitle>
+    <updated>{{ site.time | | date_to_xmlschema }}</updated>
+    <link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/atom+xml"/>
+    <link href="{{ site.url }}{{ site.baseurl }}/" rel="alternate" type="text/html" />
+    <author>
+        <name>{{site.author | xml_escape}}</name>
+        <email>{{site.email}}</email>
+        <uri>{{ "/about/" | prepend: site.baseurl | prepend: site.url }}</uri>
+    </author>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts %}
+    <entry>
+        <id>{{ post.url | prepend: site.baseurl | prepend: site.url }}</id>
+        <title type="html">{{ post.title | xml_escape }}</title>
+        <updated>{% if post.date %}{{post.date | date_to_xmlschema}}{%else%}{{site.date| date_to_xmlschema}}{%endif%}</updated>
+
+        <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
+        <author>
+            <name>{% if post.author %}{{post.author}}{%else%}{{site.author}}{%endif%}</name>
+        </author>
+        {% if post.excerpt != post.content %}<summary type="html"><![CDATA[ {{post.excerpt}} <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="alternate">Read more</a>]]>
+        </summary>{% endif %}
+        <content type="html"><![CDATA[ {{post.content}}]]>
+        </content>
+        <published>{{post.date | date_to_xmlschema}}</published>
+        {% for cat in post.categories %}<category term="{{ cat | xml_escape }}">{{ cat | xml_escape }}</category>        {% endfor %}    
+        {% for tag in post.tags %}<category term="{{ tag | xml_escape }}">{{ tag | xml_escape }}</category>        {% endfor %}
+    </entry>    {% endfor %}
+</feed>
