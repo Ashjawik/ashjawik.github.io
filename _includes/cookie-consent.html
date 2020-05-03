@@ -33,7 +33,9 @@
 
     if(readCookie('cookie-notice-dismissed')=='true') {
         if(readCookie('cookie-notice-type')=='all'){
-            {%- include gtm.html -%}
+            {%- if jekyll.environment == 'production' -%}
+                {%- include gtm.html -%}
+            {% endif %}
         }    
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
